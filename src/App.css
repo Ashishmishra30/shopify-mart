@@ -63,3 +63,17 @@ section{
   padding: 60px 0px ;
 }
 
+.section_title{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/*------------- Media Queries ---------------*/
+
+
+@media only screen and (max-width: 768px){
+  section{
+    padding: 40px 0px;
+  }
+}
+
