@@ -30,3 +30,26 @@
     color: #fff;
     border-radius: 50px;
 }
+
+
+
+
+/*----------------- Media queries -----------------*/
+
+
+@media only screen and (max-width: 992px){
+    .product_info h3 a{
+        font-size: 1.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .product_info h3 a{
+        font-size: 1rem;
+    }
+
+    .product_card-bottom span i{
+        font-size: 1rem;
+    }
+}

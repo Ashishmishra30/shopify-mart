@@ -20,7 +20,7 @@ const Footer = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus earum in voluptate recusandae ea blanditiis deserunt.
           </p>
           </Col>
-          <Col lg="3">
+          <Col lg="3" className="mb-4">
             <div className="footer_quick-links">
               <h4 className="quick_links-title">Top categories</h4>
               <ListGroup className="mb-3">
@@ -39,7 +39,7 @@ const Footer = () => {
               </ListGroup>
             </div>
           </Col>
-          <Col lg="2">
+          <Col lg="2" className="mb-4">
           <div className="footer_quick-links">
               <h4 className="quick_links-title">Usefull Links</h4>
               <ListGroup className="mb-3">
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
           </Col>
             
-          <Col lg="3">
+          <Col lg="3" className="mb-4">
           <div className="footer_quick-links">
               <h4 className="quick_links-title">Contact</h4>
               <ListGroup className="footer_contact">
@@ -80,7 +80,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="12">
+          <Col lg="12" className="mb-4">
             <p className="footer_copyright">Copyright {year} developed by Ashish Mishra. All rights reserved.</p>
           </Col>
         </Row>

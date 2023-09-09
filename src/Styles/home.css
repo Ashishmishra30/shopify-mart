@@ -73,6 +73,26 @@
     .section_title{
         font-size: 1.7rem;
     }
+
+    .counter_img{
+        display: none;
+    }
+
+    .clock_top-content{
+        text-align: center;
+    }
+
+    .clock_top-content h4{
+        font-size: 0.9rem !important;
+    }
+
+    .clock_top-content h3{
+        font-size: 1rem !important;
+    }
+
+    .count_col{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -86,6 +106,10 @@
 
     .buy_btn{
         font-size: 0.9rem;
+    }
+
+    .section_title{
+        font-size: 1.4rem;
     }
 }
 
