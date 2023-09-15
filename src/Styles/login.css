@@ -1,0 +1,76 @@
+
+
+.auth__form{
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.auth__btn{
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.auth__form p{
+    margin-top: 30px;
+}
+
+.auth__form p a{
+    color: #ffffffd2;
+}
+
+.auth__form input[type="file"]{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+/*
+
+  <Col lg="6" className="m-auto text-center">
+              <h3 className="mb-4 fw-bold">Signup</h3>
+
+              <Form className="auth__form" onSubmit={signup}>
+                <FormGroup className="form__group">
+                  <input
+                    type="text"
+                    placeholder="Enter your Name"
+                    value={userName}
+                    onChange={(e) => setUserName(e.target.value)}
+                  />
+                </FormGroup>
+                <FormGroup className="form__group">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                </FormGroup>
+                <FormGroup className="form__group">
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                  />
+                </FormGroup>
+                <FormGroup className="form__group">
+                  <input
+                    type="file"
+                    onChange={(e) => setFile(e.target.files[0])}
+                  />
+                </FormGroup>
+                <button type="submit" className="buy_btn auth__btn">
+                  Signup
+                </button>
+                <p>
+                  Already have an account? <Link to="/login">Login</Link>
+                </p>
+              </Form>
+            </Col>
+*/

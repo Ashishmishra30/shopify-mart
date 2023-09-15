@@ -49,7 +49,7 @@ const Cart = () => {
             <p className="fs-6 mt-2">taxes and shipping will calculate in checkout</p>
             <div>
               <button className="buy_btn w-100 "><Link to="/checkout">Checkout</Link></button>
-              <button className="buy_btn w-100 mt-2 mb-3"><Link to="/shop">Continue Shop</Link></button>
+              <button className="buy_btn w-100 mt-2 mb-3"><Link to="/product">Continue Shop</Link></button>
             </div>
           </Col>
         </Row>
